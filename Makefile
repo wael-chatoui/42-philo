@@ -7,7 +7,7 @@ OBJS_DIR = obj
 SRCS_DIR = .
 INC_DIR = .
 
-SRC_FILES = main
+SRC_FILES = main parser utils
 SRCS = $(addsuffix .c, $(SRC_FILES))
 
 OBJS = $(SRCS:%.c=$(OBJS_DIR)/%.o)
